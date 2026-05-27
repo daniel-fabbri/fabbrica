@@ -4,6 +4,7 @@
   "description": "Landing page moderna para empresa de arquitetura de software e inovação com IA",
   "main": "index.html",
   "scripts": {
+    "build": "echo 'No build needed - static site'",
     "start": "npx http-server -p 8000 -o",
     "dev": "npx live-server --port=8000",
     "format": "npx prettier --write \"**/*.{html,css,js,json,md}\"",

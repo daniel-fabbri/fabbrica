@@ -30,7 +30,8 @@ jobs:
           ###### Repository/Build Configurations ######
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "/" # Static files are in the root
+          output_location: "" # No build output, static files in app_location
+          skip_app_build: true # Skip Oryx build for pure static HTML site
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:

@@ -1,0 +1,26 @@
+{
+  "name": "fabbrica-website",
+  "version": "1.0.0",
+  "description": "Landing page moderna para empresa de arquitetura de software e inovação com IA",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000",
+    "format": "npx prettier --write \"**/*.{html,css,js,json,md}\"",
+    "validate": "npx html-validator-cli index.html"
+  },
+  "keywords": [
+    "landing-page",
+    "static-website",
+    "azure",
+    "software-architecture",
+    "ai-innovation"
+  ],
+  "author": "Fabbrica",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabbrica/website"
+  },
+  "devDependencies": {}
+}
